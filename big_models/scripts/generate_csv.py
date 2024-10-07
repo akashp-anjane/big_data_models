@@ -6,7 +6,7 @@ from faker import Faker
 fake = Faker()
 
 # Configuration
-num_files = 200
+num_files = 1200
 num_rows_per_file = 100  # Adjust the number of rows per CSV as needed
 output_directory = 'dbt_seeds'
 
