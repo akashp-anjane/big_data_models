@@ -6,9 +6,9 @@ from faker import Faker
 fake = Faker()
 
 # Configuration
-num_files = 1200
-num_rows_per_file = 100  # Adjust the number of rows per CSV as needed
-output_directory = 'dbt_seeds'
+num_files = 5000
+num_rows_per_file = 500  # Adjust the number of rows per CSV as needed
+output_directory = 'seeds'
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_directory):
